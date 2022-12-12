@@ -1,0 +1,264 @@
+/* custom css goes here */
+body{
+    padding: 2px;
+    margin: 2px;
+}
+
+.float-container {
+    
+    padding: 20px;
+}
+
+.float-child {
+    width: 50%;
+    float: left;
+    padding: 20px;
+    
+} 
+
+.one{
+    
+    position: relative;
+    top: 30px;
+}
+.display-4{
+    text-align: center;
+    color: #ffffff;
+    font-weight: bold;
+    text-shadow: 0px 3px 0px #b2a98f,
+    0px 14px 10px rgba(0,0,0,0.15),
+    0px 24px 2px rgba(0,0,0,0.1),
+    0px 34px 30px rgba(0,0,0,0.1);
+}
+
+body{
+    background-color: #F6EBF4;
+    color: #ffffff;
+}
+nav{
+    background-color: #F6EBF4;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 9px;
+    border-radius: 20px;
+    height: 60px ;
+    
+}
+
+nav li a{
+    color: #482673;
+    font-weight: bold;
+    
+    
+
+}
+a:hover{
+    text-decoration: none;
+    font-size: 15px;
+    
+}
+
+
+.fixed-bottom{
+    background-color: #F6EBF4;
+    color: #482673;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 9px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    height: 45px;
+}
+.container{
+    margin-top: 50px;
+}
+.first-hr{
+    position: relative;
+    border: none;
+    height: 3px;
+    background-color: rgba(163, 163, 163, 0.2);
+    width: 94rem;
+    
+}
+.btn-survery{
+    border-radius: 10px;
+    padding: 9px;
+    border: none;
+    background-color: #482673;
+    
+}
+.btn-survery a{
+    color: white;
+}
+.sign-btn{
+    border: none;
+    background-color: #482673;
+    color:white;
+   
+
+}
+.logo_1{
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+}
+.logo_box{
+    padding: right;
+    
+}
+.nav-item{
+    padding-right: 15px;
+}
+.navbar-brand{
+    color: #482673;
+    font-weight: bold;
+}
+
+.group-photo{
+    border-radius: 10px;
+    margin-top: 25px;
+    margin-bottom: 70px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
+a{
+    text-decoration: none;
+    color: #482673;
+    text-decoration-line : none;
+}
+.card.p-3.mb-2{
+    height: 300px;
+}
+.table{
+    margin-right: 700px ;
+    width: 300px;
+    height: 300px;
+    position: relative;
+    right: 80px;
+}
+.login-container,.register-container {
+    padding: 10px;
+    margin-top: 10px;
+}
+.container-log, .container-reg{ 
+    display: flex;
+    justify-content: center;
+}
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0;
+}
+
+.navbar > div {
+    margin: auto;
+}
+.footer-content{
+    background-color: white;
+    padding:5px 20px 5px 20px;
+    border-radius: 60px;
+    font-size: 8pt;
+}
+.card_cover{
+    text-align: center;
+}
+.card_cover > .card{
+    display: inline-block;
+    margin-left: 35px;
+    margin-right: 35px;
+}
+.space_1{
+    height: 50px;
+}
+
+
+
+.back-video{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+@media (min-aspect-ratio: 16/9){
+    .back-video{
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+
+
+
+.card_cover .card .card-text{
+    color: white;
+    
+    
+}
+.card{
+   border-radius: 10px;
+   background-color: black;
+    padding: 0px;
+    
+}
+
+.form-layout{
+    display: flex;
+    justify-content: center;
+    border: 1px solid white;
+    width: 550px;
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
+    margin-top: 15px;
+      
+}
+.form-layout2{
+    width: 450px;
+    margin-left: 10px;
+}
+.form-layout3{
+    width: 450px;
+    margin-left: 20px ;
+}
+
+.container-survey table{
+    color: white;
+    
+}
+.footer nav{
+    background-color: #F6EBF4;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 9px;
+    border-radius: 20px;
+    height: 50px ;
+    margin-bottom: 10px;
+}
+#table_1{
+    margin-left: 400px;
+}
+#table_2{
+    margin-left: 500px;
+}
+#table_3{
+    margin-left: 500px;
+}
+.div_pie_chart{
+    text-align: center;
+    border: 1px red solid;
+    margin-left: 400px;
+}
+#suv_1, #suv_2, #suv_3{
+    color: black;
+}
+#table_1, #table_2, #table_3{
+    color: black;
+}
+#piechart{
+    position: relative;
+    margin-top: 50px;
+    left: 490px;
+}
+#suv_1_b{
+    color: #000;
+}
+
