@@ -52,5 +52,5 @@ jobs:
         with:
           app-name: 'pajfajWebsite'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_64B1484874394CB682E04B082DC7DF46 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_85B911005C1D42B689EEAC7D5D4D0FD7 }}
           package: .
